@@ -17,6 +17,7 @@ let package = Package(
         .target(
             name: "Kingfisher",
             path: "Sources",
+            type: .dynamic,
             resources: [.process("PrivacyInfo.xcprivacy")]
         )
     ]
